@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #050505 0%, #1c0b14 45%, #ff2f92 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(10, 10, 10, 0.9);
+    padding: 30px;
+    border-radius: 18px;
+    width: 100%;
+    max-width: 440px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 47, 146, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #f7b2cf;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.password-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+#password {
+    flex: 1;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid #ff2f92;
+    border-radius: 10px;
+    outline: none;
+    background: #111;
+    color: white;
+}
+
+#password::placeholder {
+    color: #9a9a9a;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+#copyBtn {
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #ff2f92, #ff5fa3);
+    color: white;
+    font-weight: 600;
+}
+
+#copyBtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(255, 47, 146, 0.25);
+}
+
+.status-box {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+#statusText {
+    color: #f7b2cf;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.strength-bar {
+    height: 8px;
+    background: #2c2c2c;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+#strengthBar {
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #ff2f92, #ff7eb3);
+    transition: width 0.25s ease;
+}
+
+#strengthLabel {
+    color: #ddd;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.options label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #f5f5f5;
+}
+
+input[type="checkbox"] {
+    accent-color: #ff2f92;
+}
+
+#length {
+    width: 100%;
+    accent-color: #ff2f92;
+}
+
+#generateBtn {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, #111, #ff2f92);
+}
+
+#generateBtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(255, 47, 146, 0.25);
+}
