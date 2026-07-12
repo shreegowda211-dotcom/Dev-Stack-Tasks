@@ -19,14 +19,14 @@ A responsive calculator for performing basic arithmetic operations.
 
 **Features**
 
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division
-* 📊 Percentage
-* ⌨️ Keyboard Support
-* 🗑️ Clear & Backspace
-* 📱 Responsive Design
+* Addition
+*  Subtraction
+*  Multiplication
+*  Division
+*  Percentage
+*  Keyboard Support
+*  Clear & Backspace
+*  Responsive Design
 
 ---
 
