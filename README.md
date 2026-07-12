@@ -134,19 +134,6 @@ Open any project folder and launch `index.html` in your browser, or use the **Li
 
 ---
 
-## 📸 Preview
-
-Add screenshots or GIFs here.
-
-| Project               | Preview            |
-| --------------------- | ------------------ |
-| 🧮 Calculator         | *(Add Screenshot)* |
-| 🔐 Password Generator | *(Add Screenshot)* |
-| ⏱️ Stopwatch          | *(Add Screenshot)* |
-| 🎂 Age Calculator     | *(Add Screenshot)* |
-
----
-
 ## 🎯 Learning Outcomes
 
 During this internship, I gained hands-on experience with:
