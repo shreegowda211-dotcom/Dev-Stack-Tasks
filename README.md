@@ -164,7 +164,7 @@ See the **LICENSE** file for more information.
 **Shree Gowda**
 
 * 💼 GitHub: https://github.com/shreegowda211-dotcom
-* 💼 LinkedIn: https://linkedin.com/shreegowda09
+* 💼 LinkedIn: https://linkedin.com/in/shreegowda09
 
 ---
 
